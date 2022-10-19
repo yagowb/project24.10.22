@@ -4,7 +4,7 @@ const app = express(); //inicia o express
 
 //rota inicial
 app.get("/",function(request,response){
-    res.send("Bem-vindo ao meu site! :D");
+    res.send("Bem-vindo ao meu site!");
 })
 
 
@@ -28,7 +28,7 @@ app.get("/cadastro/:nome?", function(req,res){
     if(nome){
         res.send("<h1>produto " + nome + " criado!</h1>");
     }else{
-        res.send("produto criado!");
+        res.send("produto criado");
     }
 })
 
