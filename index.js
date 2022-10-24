@@ -4,7 +4,7 @@ const app = express(); //inicia o express
 
 //rota inicial
 app.get("/",function(request,response){
-    res.send("Bem-vindo ao meu site!");
+    res.send("Seja-bem vindo usuário!!!");
 })
 
 
